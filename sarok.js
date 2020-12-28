@@ -4,7 +4,7 @@ const invites = {};
 const wait = require("util").promisify(setTimeout);
 const moment = require("moment");
 const fs = require("fs");
-var prefix = "g+";
+var prefix = "1+";
 
 sarok.on("ready", () => {
   console.log(`Logged in as ${sarok.user.tag}!`);
